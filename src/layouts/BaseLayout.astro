@@ -11,9 +11,9 @@ const { content } = Astro.props;
 		<title>{content.title}</title>
 	</head>
 	<body>
-<header>
+
         <Navbar1 client:load/>
-</header>           
+    
 		<slot />
 	</body>
 </html>
