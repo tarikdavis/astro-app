@@ -1,8 +1,8 @@
 ---
 import '../styles/global.css';
+import { Navbar1 } from '../components/navbar1.tsx';
 const { content } = Astro.props;
 ---
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -11,6 +11,9 @@ const { content } = Astro.props;
 		<title>{content.title}</title>
 	</head>
 	<body>
+<header>
+        <Navbar1 client:load/>
+</header>           
 		<slot />
 	</body>
 </html>
