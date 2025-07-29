@@ -4,9 +4,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import HeroWrapper from '@/components/HeroWrapper.astro';
 // Component Imports
 import { Button } from "@/components/ui/button"
+import CompaniesWrapper from '@/components/CompaniesWrapper.astro';
 ---
 <BaseLayout content={{ title: 'Tarik Davis' }}>
 <HeroWrapper client:load/>
+<CompaniesWrapper />
 		<div class="grid place-items-center h-screen content-center">
 			<Button>Tailwind Button in Astro!</Button>
 			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>

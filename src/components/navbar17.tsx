@@ -17,10 +17,10 @@ import {
 } from "@/components/ui/popover";
 
 const NAV_LOGO = {
-  url: "https://www.shadcnblocks.com",
+  url: "https://www.tarikdavis.co.uk",
   src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
   alt: "logo",
-  title: "Shadcnblocks.com",
+  title: "tarikdavis.co.uk",
 };
 const NAV_ITEMS = [
   { name: "Home", link: "/" },
@@ -101,15 +101,7 @@ const Navbar17 = () => {
         {/* Mobile Menu Popover */}
         <MobileNav activeItem={activeItem} setActiveItem={setActiveItem} />
 
-        <div className="hidden items-center gap-2 lg:flex">
-          <Button
-            variant="outline"
-            size="sm"
-            className="h-10 py-2.5 text-sm font-normal"
-          >
-            Signup
-          </Button>
-        </div>
+       
       </nav>
     </section>
   );
@@ -172,9 +164,7 @@ const MobileNav = ({
                 </a>
               </li>
             ))}
-            <li className="flex flex-col px-7 py-2">
-              <Button variant="secondary">Sign Up</Button>
-            </li>
+  
           </ul>
         </PopoverContent>
       </Popover>
