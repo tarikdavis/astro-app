@@ -1,17 +1,12 @@
 ---
 import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import HeroWrapper from '@/components/HeroWrapper.astro';
 // Component Imports
-import { Button } from "@/components/ui/button"
-import CompaniesWrapper from '@/components/CompaniesWrapper.astro';
+import { Hero26 } from '@/components/hero';
+import { Feature16 } from '@/components/companies';
+
 ---
 <BaseLayout content={{ title: 'Tarik Davis' }}>
-<HeroWrapper client:load/>
-<CompaniesWrapper />
-		<div class="grid place-items-center h-screen content-center">
-			<Button>Tailwind Button in Astro!</Button>
-			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
-		</div>
-		<slot />
+<Hero26 client:load/>
+<Feature16 client:load/>
 </BaseLayout>

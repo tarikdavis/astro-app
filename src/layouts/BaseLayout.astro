@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import NavWrapper from '@/components/NavWrapper.astro';
+import { Navbar17 } from '@/components/navbar17';
 const { content } = Astro.props;
 ---
 <html lang="en">
@@ -11,8 +11,10 @@ const { content } = Astro.props;
 		<title>{content.title}</title>
 	</head>
 	<body>
-		<main class="container mx-auto">
-        <NavWrapper/>
+		<header>
+			 <Navbar17 client:load/>
+		</header>	
+	<main>
 		<slot />
 		</main>
 	</body>
