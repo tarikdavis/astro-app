@@ -11,7 +11,9 @@ const { content } = Astro.props;
 		<title>{content.title}</title>
 	</head>
 	<body>
+		<main class="container mx-auto">
         <NavWrapper/>
 		<slot />
+		</main>
 	</body>
 </html>
