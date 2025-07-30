@@ -2,7 +2,7 @@ import { Timer, Zap, ZoomIn } from "lucide-react";
 
 const Feature16 = () => {
   return (
-    <section className="py-12">
+    <section className="py-12 bg-primary-foreground">
       <div className="container">
 
         <h2 className="text-3xl font-medium lg:text-4xl">Companies I've worked with</h2>
