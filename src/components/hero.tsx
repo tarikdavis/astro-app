@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero26 = () => {
   return (
-    <section className="py-16">
+    <section className="py-12">
       <div className="container">
         <div className="text-center">
 
