@@ -7,7 +7,7 @@ const Footer12 = () => {
   ];
 
   const social = [
-    { name: "LinkedIn", href: "#" },
+    { name: "LinkedIn", href: "http://linkedin.com/in/tarikdavis" },
   ];
 
   const legal = [{ name: "Privacy Policy", href: "#" }];
