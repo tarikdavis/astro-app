@@ -40,8 +40,7 @@ const Feature16 = () => {
               doloremque! Eligendi.
             </p>
           </div>
-        </div>
-        <div className="mt-14 grid gap-6 lg:mt-20 lg:grid-cols-3">
+
           <div className="rounded-lg bg-accent p-5">
             <span className="mb-8 flex size-12 items-center justify-center rounded-full bg-background">
               <Timer className="size-6" />
