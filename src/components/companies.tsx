@@ -64,7 +64,7 @@ const Feature63 = () => {
                 width={50}
                 height={50}
                 style={{ objectFit: "contain" }}
-                className="mb-8 aspect-16/9 md:mb-12 lg:w-full"
+                className="aspect-16/9 md:mb-12 lg:w-full"
               />
               <div className="flex flex-col">
                 <p className="mb-2 text-sm font-semibold md:text-base">
