@@ -21,7 +21,7 @@ const NAV_LOGO = {
   url: "https://www.linkedin.com/in/tarikdavis/",
   src: "https://github.com/tarikdavis/astro-app/blob/main/src/img/icons8-linkedin.svg?raw=true",
   alt: "Linkedin icon",
-  title: "Lets connect on Linkedin",
+  title: "Lets connect on LinkedIn",
 };
 const NAV_ITEMS = [
   { name: "Home", link: "/" },
