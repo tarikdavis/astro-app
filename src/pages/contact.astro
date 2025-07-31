@@ -1,0 +1,9 @@
+---
+import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+// Component Imports
+import { Contact5 } from '@/components/contacttarik';
+---
+<BaseLayout content={{ title: 'Tarik Davis' }}>
+<Contact5 client:load/>
+</BaseLayout>

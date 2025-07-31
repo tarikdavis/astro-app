@@ -3,7 +3,6 @@
 import { Menu, X } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 
-
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
@@ -18,16 +17,16 @@ import {
 } from "@/components/ui/popover";
 
 const NAV_LOGO = {
-  url: "https://www.tarikdavis.co.uk",
+  url: "https://www.shadcnblocks.com",
   src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
   alt: "logo",
-  title: "tarikdavis.co.uk",
+  title: "Shadcnblocks.com",
 };
 const NAV_ITEMS = [
   { name: "Home", link: "/" },
-  { name: "About", link: "/" },
-  { name: "Latest work", link: "/" },
-  { name: "Contact", link: "/contact"},
+  { name: "About", link: "/about" },
+  { name: "Latest work", link: "/latest-work" },
+  { name: "Get in touch", link: "/contact" }, // Fixed link
 ];
 
 const Navbar17 = () => {
@@ -73,21 +72,20 @@ const Navbar17 = () => {
             className="rounded-4xl flex items-center gap-6 px-8 py-3"
           >
             {NAV_ITEMS.map((item) => (
-              <React.Fragment key={item.name}>
-                <NavigationMenuItem>
-                  <NavigationMenuLink
-                    data-nav-item={item.name}
-                    onClick={() => setActiveItem(item.name)}
-                    className={`relative cursor-pointer text-sm font-medium hover:bg-transparent ${
-                      activeItem === item.name
-                        ? "text-foreground"
-                        : "text-muted-foreground"
-                    }`}
-                  >
-                    {item.name}
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              </React.Fragment>
+              <NavigationMenuItem key={item.name}>
+                <NavigationMenuLink
+                  data-nav-item={item.name}
+                  href={item.link} // Added href
+                  onClick={() => setActiveItem(item.name)}
+                  className={`relative cursor-pointer text-sm font-medium hover:bg-transparent ${
+                    activeItem === item.name
+                      ? "text-foreground"
+                      : "text-muted-foreground"
+                  }`}
+                >
+                  {item.name}
+                </NavigationMenuLink>
+              </NavigationMenuItem>
             ))}
             {/* Active Indicator */}
             <div
@@ -101,8 +99,6 @@ const Navbar17 = () => {
 
         {/* Mobile Menu Popover */}
         <MobileNav activeItem={activeItem} setActiveItem={setActiveItem} />
-
-       
       </nav>
     </section>
   );
@@ -112,15 +108,15 @@ export { Navbar17 };
 
 const AnimatedHamburger = ({ isOpen }: { isOpen: boolean }) => {
   return (
-    <div className="group relative h-6 w-6">
-      <div className="absolute inset-0">
+    <div className="group relative size-full">
+      <div className="absolute flex size-full items-center justify-center">
         <Menu
-          className={`text-muted-foreground group-hover:text-foreground absolute transition-all duration-300 ${
+          className={`text-muted-foreground group-hover:text-foreground absolute size-6 transition-all duration-300 ${
             isOpen ? "rotate-90 opacity-0" : "rotate-0 opacity-100"
           }`}
         />
         <X
-          className={`text-muted-foreground group-hover:text-foreground absolute transition-all duration-300 ${
+          className={`text-muted-foreground group-hover:text-foreground absolute size-6 transition-all duration-300 ${
             isOpen ? "rotate-0 opacity-100" : "-rotate-90 opacity-0"
           }`}
         />
@@ -139,15 +135,17 @@ const MobileNav = ({
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="block lg:hidden">
+    <div className="block flex h-full items-center lg:hidden">
       <Popover open={isOpen} onOpenChange={setIsOpen}>
-        <PopoverTrigger>
-          <AnimatedHamburger isOpen={isOpen} />
+        <PopoverTrigger asChild>
+          <Button variant="ghost" size="icon">
+            <AnimatedHamburger isOpen={isOpen} />
+          </Button>
         </PopoverTrigger>
 
         <PopoverContent
           align="end"
-          className="relative -left-4 -top-4 block w-screen max-w-md overflow-hidden rounded-xl p-0 lg:hidden"
+          className="relative -right-4 top-4 block w-[calc(100vw-32px)] overflow-hidden rounded-xl p-0 sm:right-auto sm:top-auto sm:w-80 lg:hidden"
         >
           <ul className="bg-background text-foreground w-full py-4">
             {NAV_ITEMS.map((navItem, idx) => (
@@ -165,7 +163,9 @@ const MobileNav = ({
                 </a>
               </li>
             ))}
-  
+            <li className="flex flex-col px-7 py-2">
+              <Button variant="outline">Sign Up</Button>
+            </li>
           </ul>
         </PopoverContent>
       </Popover>
