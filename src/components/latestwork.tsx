@@ -16,7 +16,7 @@ const Feature50 = () => {
         </div>
         <div className="mx-auto mt-20 flex max-w-5xl grid-cols-1 flex-col gap-6 lg:grid lg:grid-cols-7">
           <a
-            href="#"
+            href="/latest-work"
             className="col-span-7 grid overflow-hidden rounded-lg bg-muted sm:grid-cols-2"
           >
             <div className="flex flex-col justify-between p-8 lg:p-12">
@@ -29,8 +29,7 @@ const Feature50 = () => {
                 </h3>
                 <p className="text-sm text-muted-foreground lg:text-base">
                   Built with Adobe Experience Manager and Adaptive forms.
-                </p>
-                <p className="text-sm text-muted-foreground lg:text-base">
+ 
                   We utilised existing tools and functionality to create a React app that surfaced hidden form data and structured content generated with a CSV source file.
                 </p>
               </div>
