@@ -61,10 +61,10 @@ const Feature63 = () => {
                 src={feature.image}
                 alt={feature.title}
                 loading="lazy"
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 style={{ objectFit: "contain" }}
-                className="aspect-16/9 md:mb-12 lg:w-full"
+                className="mb-8 aspect-16/9 md:mb-12 lg:w-full"
               />
               <div className="flex flex-col">
                 <p className="mb-2 text-sm font-semibold md:text-base">
