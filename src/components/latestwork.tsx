@@ -39,7 +39,7 @@ const Feature50 = () => {
               </div>
             </div>
             <img
-              src="./img/mortgage-product-finder.webp"
+              src="https://tariks-website.netlify.app/img/mortgage-product-finder.webp"
               alt="HSBC"
               className="order-first aspect-video h-full max-h-96 w-full border-b object-cover sm:order-last sm:aspect-auto lg:max-h-none lg:border-b-0 lg:border-l"
             />
