@@ -4,7 +4,6 @@ import { Menu, X } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/button";
-
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -27,19 +26,35 @@ const NAV_ITEMS = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
   { name: "Latest work", link: "/latest-work" },
-  { name: "Get in touch", link: "/contact" }, // Fixed link
+  { name: "Get in touch", link: "/contact" },
 ];
 
 const Navbar17 = () => {
   const [activeItem, setActiveItem] = useState(NAV_ITEMS[0].name);
-
   const indicatorRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLUListElement>(null);
 
+  // Sync activeItem with current URL
+  useEffect(() => {
+    const updateActiveItem = () => {
+      const currentPath = window.location.pathname;
+      const matchedItem = NAV_ITEMS.find(
+        (item) => item.link === currentPath
+      )?.name || NAV_ITEMS[0].name;
+      setActiveItem(matchedItem);
+    };
+
+    updateActiveItem(); // Run on mount
+    window.addEventListener("popstate", updateActiveItem); // Handle browser back/forward
+
+    return () => window.removeEventListener("popstate", updateActiveItem);
+  }, []);
+
+  // Update underline position based on activeItem
   useEffect(() => {
     const updateIndicator = () => {
       const activeEl = document.querySelector(
-        `[data-nav-item="${activeItem}"]`,
+        `[data-nav-item="${activeItem}"]`
       ) as HTMLElement;
 
       if (activeEl && indicatorRef.current && menuRef.current) {
@@ -76,7 +91,7 @@ const Navbar17 = () => {
               <NavigationMenuItem key={item.name}>
                 <NavigationMenuLink
                   data-nav-item={item.name}
-                  href={item.link} // Added href
+                  href={item.link}
                   onClick={() => setActiveItem(item.name)}
                   className={`relative cursor-pointer text-sm font-medium hover:bg-transparent ${
                     activeItem === item.name
