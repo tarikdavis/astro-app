@@ -1,49 +1,49 @@
 const features = [
   {
     id: "feature-1",
-    title: "HSBC",
+    title: "Feature 1",
     description: "Nam vitae molestie arcu. Quisque eu libero orci.",
-    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/hsbc.svg?raw=true",
+    image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg",
   },
   {
     id: "feature-2",
-    title: "Lloyds Business Banking",
+    title: "Feature 2",
     description: "Nam vitae molestie arcu. Quisque eu libero orci.",
-    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/lloyds.svg?raw=true",
+    image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-2.svg",
   },
   {
     id: "feature-3",
-    title: "Virgin 02",
+    title: "Feature 3",
     description: "Nam vitae molestie arcu. Quisque eu libero orci.",
-    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/virginmedia.svg?raw=true",
+    image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg",
   },
   {
-    id: "Aviva",
+    id: "feature-4",
     title: "Feature 4",
     description: "Nam vitae molestie arcu. Quisque eu libero orci.",
-    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/aviva.svg?raw=true",
+    image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-4.svg",
   },
   {
     id: "feature-5",
-    title: "Barclays Digital",
+    title: "Feature 5",
     description: "Nam vitae molestie arcu. Quisque eu libero orci.",
-    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/barclays.svg?raw=true",
+    image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-5.svg",
   },
   {
     id: "feature-6",
-    title: "BBC",
+    title: "Feature 6",
     description: "Nam vitae molestie arcu. Quisque eu libero orci.",
-    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/bbc.svg?raw=true",
+    image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-6.svg",
   },
 ];
 
 const Feature63 = () => {
   return (
-    <section className="py-12 bg-primary-foreground">
+    <section className="py-32">
       <div className="container flex flex-col items-center gap-16 lg:px-16">
         <div className="text-center">
           <h3 className="mb-3 text-3xl font-semibold text-pretty md:mb-4 md:text-4xl lg:mb-6 lg:max-w-3xl lg:text-5xl">
-            Companies I've worked with
+            Feature group
           </h3>
           <p className="text-muted-foreground lg:max-w-3xl lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig
@@ -58,12 +58,8 @@ const Feature63 = () => {
               className="rounded-lg border border-border bg-accent p-6 md:p-8"
             >
               <img
-                src={feature.image}
-                alt={feature.title}
-                loading="lazy"
-                width={50}
-                height={50}
-                style={{ objectFit: "contain" }}
+                src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
+                alt="placeholder"
                 className="mb-6 aspect-16/9 md:mb-8 lg:w-full"
               />
               <div className="flex flex-col">
