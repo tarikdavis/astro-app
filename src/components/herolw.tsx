@@ -1,9 +1,5 @@
 import {
-  ArrowRight,
-  Blocks,
-  MessagesSquare,
-  MoveRight,
-  Users,
+  ChevronRight,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -22,11 +18,12 @@ const Hero26 = () => {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button size="lg">
-              <a href="https://www.hsbc.co.uk/mortgages/finder/">View live project</a><MoveRight className="ml-2" strokeWidth={1} />
+              <a href="https://www.hsbc.co.uk/mortgages/finder/">View live project</a>
+              <ChevronRight className="ml-1 h-4" />
             </Button>
-            <Button size="lg" variant="ghost">
+            <Button size="lg" variant="secondary">
               <a href="/contact">Discuss this project</a>
-              <MoveRight className="ml-2" strokeWidth={1} />
+              <ChevronRight className="ml-1 h-4" />
             </Button>
           </div>
         </div>
