@@ -24,7 +24,6 @@ const NAV_LOGO = {
 };
 const NAV_ITEMS = [
   { name: "Home", link: "/" },
-  { name: "About", link: "/about" },
   { name: "Latest work", link: "/latest-work" },
   { name: "Get in touch", link: "/contact" },
 ];
@@ -72,6 +71,7 @@ const Navbar17 = () => {
   }, [activeItem]);
 
   return (
+  
     <section className="py-4">
       <nav className="container flex items-center justify-between">
         {/* Left WordMark */}
