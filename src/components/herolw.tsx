@@ -18,14 +18,14 @@ const Hero26 = () => {
             HSBC Mortgage Finder
           </h1>
           <p className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl">
-          A comprehensive mortgage finder tool designed to help customers discover the right mortgage options through an intuitive, user-friendly interface with advanced calculation capabilities.
+          A new tool to help customers discover HSBC mortgage products.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button size="lg">
-              View live project<MoveRight className="ml-2" strokeWidth={1} />
+              <a href="https://www.hsbc.co.uk/mortgages/finder/">View live project</a><MoveRight className="ml-2" strokeWidth={1} />
             </Button>
             <Button size="lg" variant="ghost">
-              Discuss this project
+              <a href="/contact">Discuss this project</a>
               <MoveRight className="ml-2" strokeWidth={1} />
             </Button>
           </div>
