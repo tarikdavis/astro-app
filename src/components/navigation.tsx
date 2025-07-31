@@ -163,9 +163,6 @@ const MobileNav = ({
                 </a>
               </li>
             ))}
-            <li className="flex flex-col px-7 py-2">
-              <Button variant="outline">Sign Up</Button>
-            </li>
           </ul>
         </PopoverContent>
       </Popover>
