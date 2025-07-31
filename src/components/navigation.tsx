@@ -52,12 +52,7 @@ interface Navbar1Props {
 }
 
 const Navbar1 = ({
-  logo = {
-  url: "https://www.linkedin.com/in/tarikdavis/",
-  src: "https://github.com/tarikdavis/astro-app/blob/main/src/img/icons8-linkedin.svg?raw=true",
-  alt: "Linkedin icon",
-  title: "Lets connect on LinkedIn",
-  },
+  
   menu = [
     { title: "Home", url: "/" },
     {
@@ -80,13 +75,6 @@ const Navbar1 = ({
         {/* Desktop Menu */}
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-6">
-            {/* Logo */}
-            <a href={logo.url} className="flex items-center gap-2">
-              <img src={logo.src} className="max-h-8" alt={logo.alt} />
-              <span className="text-lg font-semibold tracking-tighter">
-                {logo.title}
-              </span>
-            </a>
             <div className="flex items-center">
               <NavigationMenu>
                 <NavigationMenuList>
@@ -100,10 +88,7 @@ const Navbar1 = ({
         {/* Mobile Menu */}
         <div className="block lg:hidden">
           <div className="flex items-center justify-between">
-            {/* Logo */}
-            <a href={logo.url} className="flex items-center gap-2">
-              <img src={logo.src} className="max-h-8" alt={logo.alt} />
-            </a>
+
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="outline" size="icon">
@@ -111,13 +96,7 @@ const Navbar1 = ({
                 </Button>
               </SheetTrigger>
               <SheetContent className="overflow-y-auto">
-                <SheetHeader>
-                  <SheetTitle>
-                    <a href={logo.url} className="flex items-center gap-2">
-                      <img src={logo.src} className="max-h-8" alt={logo.alt} />
-                    </a>
-                  </SheetTitle>
-                </SheetHeader>
+
                 <div className="flex flex-col gap-6 p-4">
                   <Accordion
                     type="single"
