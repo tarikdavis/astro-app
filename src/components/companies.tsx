@@ -19,7 +19,7 @@ const features = [
   },
   {
     id: "Aviva",
-    title: "Feature 4",
+    title: "Aviva",
     description: "Nam vitae molestie arcu. Quisque eu libero orci.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/aviva.svg?raw=true",
   },
