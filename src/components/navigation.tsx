@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/button";
+
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -17,10 +18,10 @@ import {
 } from "@/components/ui/popover";
 
 const NAV_LOGO = {
-  url: "https://www.shadcnblocks.com",
-  src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
-  alt: "logo",
-  title: "Shadcnblocks.com",
+  url: "https://www.linkedin.com/in/tarikdavis/",
+  src: "https://github.com/tarikdavis/astro-app/blob/main/src/img/icons8-linkedin.svg?raw=true",
+  alt: "Linkedin icon",
+  title: "Lets connect on Linkedin",
 };
 const NAV_ITEMS = [
   { name: "Home", link: "/" },
