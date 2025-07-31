@@ -11,7 +11,7 @@ const Feature50 = () => {
             Latest work
           </h2>
           <p className="text-center text-muted-foreground lg:text-lg">
-            I have worked with some of the biggest brands in the world, helping them to create websites that work for them. Whether you need a complete digital strategy, custom development, or technical content design, I bring the skills and creative thinking to make it happen.
+          My most recent contract took me back to HSBC where I worked on a new mortgage finder tool. 
           </p>
         </div>
         <div className="mx-auto mt-20 flex max-w-5xl grid-cols-1 flex-col gap-6 lg:grid lg:grid-cols-7">
@@ -28,12 +28,15 @@ const Feature50 = () => {
                   HSBC Mortgage finder
                 </h3>
                 <p className="text-sm text-muted-foreground lg:text-base">
-                    A mortgage finder that helps customers find the right mortgage for them. The project involved custom development, technical content design, and a complete digital strategy.
+                  Built with Adobe Experience Manager and Adaptive forms.
+                </p>
+                <p className="text-sm text-muted-foreground lg:text-base">
+                  We utilised existing tools and functionality to create a React app that surfaced hidden form data and structured content generated with a CSV source file.
                 </p>
               </div>
               <div className="mt-6 sm:mt-8">
                 <Button variant="outline">
-                  Learn more
+                  <a href="/latest-work">See latest project</a>
                   <ChevronRight className="ml-1 h-4" />
                 </Button>
               </div>

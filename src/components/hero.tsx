@@ -1,9 +1,5 @@
 import {
-  ArrowRight,
-  Blocks,
-  MessagesSquare,
-  MoveRight,
-  Users,
+ChevronRight,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -22,11 +18,12 @@ const Hero26 = () => {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button size="lg">
-              See my latest work<MoveRight className="ml-2" strokeWidth={1} />
+             <a href="/latest-work">See my latest work</a>
+             <ChevronRight className="ml-1 h-4" />
             </Button>
-            <Button size="lg" variant="ghost">
-              Get in touch
-              <MoveRight className="ml-2" strokeWidth={1} />
+            <Button size="lg" variant="secondary">
+             <a href="/contact">Get in touch</a>
+             <ChevronRight className="ml-1 h-4" />
             </Button>
           </div>
         </div>
