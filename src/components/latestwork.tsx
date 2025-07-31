@@ -44,6 +44,7 @@ const Feature50 = () => {
             <img
               src="https://github.com/tarikdavis/astro-app/blob/main/src/img/mortgage-product-finder.webp?raw=true"
               alt="HSBC"
+              loading="lazy"
               className="order-first aspect-video h-full max-h-96 w-full border-b object-cover sm:order-last sm:aspect-auto lg:max-h-none lg:border-b-0 lg:border-l"
             />
           </a>
