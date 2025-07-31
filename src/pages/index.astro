@@ -4,8 +4,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 // Component Imports
 import { Hero26 } from '@/components/hero';
 import { Feature16 } from '@/components/companies';
+import { Feature50 } from '@/components/latestwork';
+import { Testimonial14 } from '@/components/testimonials';
 ---
 <BaseLayout content={{ title: 'Tarik Davis' }}>
 <Hero26 client:load/>
+<Feature50 client:load/>
 <Feature16 client:load/>
+<Testimonial14 client:load/>
 </BaseLayout>
