@@ -10,16 +10,31 @@ const { content } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{content.title}</title>
+		<meta name="description" content="Tarik Davis - Frontend Developer" />
+		<meta name="author" content="Tarik Davis" />
+		<meta name="keywords" content="Tarik Davis, Frontend Developer, Web Development, Astro, React, JavaScript" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="stylesheet" href="/styles/global.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
 	</head>
-	<body>
+	<body id="body" style="display: none;">
 		<header>
 			 <Navbar17 client:load/>
 		</header>	
-	<main>
+		<main>
 		<slot />
 		</main>
 		<footer>
 			<Footer12 client:load/>
 		</footer>
 	</body>
+	<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function() {
+            document.getElementById("body").style.display = "";        
+        }, 200);
+    }
+	</script>
 </html>

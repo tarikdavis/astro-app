@@ -39,7 +39,7 @@ const features = [
 
 const Feature63 = () => {
   return (
-    <section className="py-12 bg-primary-background">
+    <section className="py-12">
       <div className="container flex flex-col items-center gap-16 lg:px-16">
         <div className="text-center">
           <h3 className="mb-3 text-3xl font-semibold text-pretty md:mb-4 md:text-4xl lg:mb-6 lg:max-w-3xl lg:text-5xl">
