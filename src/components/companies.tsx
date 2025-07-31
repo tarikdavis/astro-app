@@ -43,7 +43,7 @@ const Feature63 = () => {
       <div className="container flex flex-col items-center gap-16 lg:px-16">
         <div className="text-center">
           <h3 className="mb-3 text-3xl font-semibold text-pretty md:mb-4 md:text-4xl lg:mb-6 lg:max-w-3xl lg:text-5xl">
-            Some of the companies I've worked with
+            Companies I've worked with
           </h3>
           <p className="text-muted-foreground lg:max-w-3xl lg:text-lg">
           </p>
