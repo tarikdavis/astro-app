@@ -13,6 +13,7 @@ const Contact5 = () => {
           </h1>
         </div>
         <div className="mx-auto flex max-w-lg flex-col gap-6">
+          <form name="contact" netlify>
           <div className="grid w-full items-center gap-2">
             <Label htmlFor="firstname">
               Your name
@@ -35,9 +36,10 @@ const Contact5 = () => {
             <Label htmlFor="message">
               Message
             </Label>
-            <Textarea placeholder="Tell us about your inquiry" id="message" />
+            <Textarea id="message" />
           </div>
           <Button className="w-full">Submit</Button>
+          </form>
         </div>
       </div>
     </section>
