@@ -2,38 +2,50 @@ const features = [
   {
     id: "feature-1",
     title: "HSBC",
-    description: "Migration of legacy forms to Adobe Experience Manager. This was a global project and included redesigning and rebuilding forms with display logic, regex validations, configuration of submission endpoints and curation of form fragments for translation to multiple languages. Mortgage product finder which can be seen in my latest work.",
+    description: "Migration of legacy forms to Adobe Experience Manager. This was a global project and included redesigning and rebuilding forms with display logic, regex validations, configuration of submission endpoints and curation of form fragments for translation to multiple languages. During my most recent contract with HSBC I worked on the Mortgage product finder which can be seen in my latest work.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/hsbc.svg?raw=true",
   },
   {
     id: "feature-2",
     title: "Lloyds Business Banking",
-    description: "I supported the Business Banking team with the transistion of the website to a new design. This required analysis and planning and collaboration with UX, Product Design and site adminstrators to preemtively adjust grids and component structure so that when the new CSS was released the site reflected the updated design. ",
+    description: "Supported the Business Banking team with the transistion of the website to a fluid grid and new design. This required analysis, planning and collaboration with UX, Product Design and site adminstrators to preemtively adjust grids and component structure so that when the new design was released the site reflected the updated design with minimal impact to customers. ",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/lloyds.svg?raw=true",
   },
   {
     id: "feature-3",
     title: "Virgin 02",
-    description: "Worked with design and UX to build self serve help journeys for Virgin Media customers. I also worked with an agency to develop and build the Best bits web app which surfaced personalised content to customers.",
+    description: "Worked with design and UX to build self serve help journeys for Virgin Media customers. I also worked with an external agency to develop and build the `Best bits` web app which surfaced personalised data driven content to consumers.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/virginmedia.svg?raw=true",
   },
   {
     id: "Aviva",
     title: "Aviva",
-    description: "Led a team of web producers to migrate the Aviva insurance UK website from django to Adobe Experience Manager. We designed a site wide content model that was rolled out globally.",
+    description: "Led a team of web producers to migrate the Aviva insurance UK website from Django to Adobe Experience Manager. We audited and rebuilt the site improving confusing journeys and removing duplicate content. We also designed and implemented structured content models which were rolled out globally.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/aviva.svg?raw=true",
   },
   {
     id: "feature-5",
     title: "Barclays Digital",
-    description: "I worked with the Barclays Digital team for 4 years, accross multiple projects in the secure online banking space, retail websites and multiple native apps. My final year saw me leading the Web production teams in London, Glasgow and Pune.",
+    description: "I worked with the Barclays Digital team for over 4 years, accross multiple digital touchpoints including secure online banking, retail and wealth websites and multiple native mobile apps. In my final year I led and coached the Web production teams in London, Glasgow and Pune.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/barclays.svg?raw=true",
   },
   {
     id: "feature-6",
     title: "BBC",
-    description: "Supported BBC learning teams to maintain and develop new features for BBC Ouch, Webwise, Skillswise and First Click.",
+    description: "Supported BBC learning teams to develop new features and maintain content for BBC Ouch, Webwise, Skillswise and First Click.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/bbc.svg?raw=true",
+  },
+    {
+    id: "feature-7",
+    title: "Aquascutum",
+    description: "Developed multiple templates for weekly campaign emails using HTML, CSS and Photoshop. Tested for accessibility and layout consistency accross multiple screen sizes and email clients.",
+    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/aquascutum.svg?raw=true",
+  },
+  {
+    id: "feature-8",
+    title: "Marks & Spencer",
+    description: "Developed high profile campaign and landing pages for the M&S ecommerce website and M&S Bank. Worked with an external partner to build interactive content displayed on touchscreens in store. Developed data capture forms for M&S competitions surfaced on M&S Facebook pages.",
+    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/mands.svg?raw=true",
   },
 ];
 
