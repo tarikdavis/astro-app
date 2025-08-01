@@ -1,5 +1,6 @@
 "use client";
-
+import React from "react";
+import { FaLinkedin } from "react-icons/fa";
 import { MenuIcon, House } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -60,13 +61,15 @@ const Navbar5 = () => {
                   href="/contact"
                   className={navigationMenuTriggerStyle()}
                 >
-                  Get in touch
+                 
                 </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
           <div className="hidden items-center gap-4 lg:flex">
-            <Button variant="outline">Client login</Button>
+            <Button variant="outline">
+              <FaLinkedin className="mr-1" /><a href="www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
+            </Button>
           </div>
           <Sheet>
             <SheetTrigger asChild className="lg:hidden">
@@ -97,12 +100,11 @@ const Navbar5 = () => {
                   <a href="/latest-work" className="font-medium">
                     Latest work
                   </a>
-                  <a href="/contact" className="font-medium">
-                    Get in touch
-                  </a>
                 </div>
                 <div className="mt-6 flex flex-col gap-4">
-                  <Button variant="outline">Client sign in</Button>
+                  <Button variant="outline">
+                    <FaLinkedin className="mr-1" /><a href="www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
+                  </Button>
                 </div>
               </div>
             </SheetContent>

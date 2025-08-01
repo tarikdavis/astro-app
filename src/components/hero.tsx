@@ -1,7 +1,6 @@
-import {
-ChevronRight,
-} from "lucide-react";
-
+import { ChevronRight } from "lucide-react";
+import { FaLinkedin } from "react-icons/fa";
+import React from "react";
 import { Button } from "@/components/ui/button";
 
 const Hero26 = () => {
@@ -22,8 +21,7 @@ const Hero26 = () => {
              <ChevronRight className="ml-1 h-4" />
             </Button>
             <Button size="lg" variant="secondary">
-             <a href="/contact">Get in touch</a>
-             <ChevronRight className="ml-1 h-4" />
+             <FaLinkedin className="mr-1" /><a href="www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
             </Button>
           </div>
         </div>
