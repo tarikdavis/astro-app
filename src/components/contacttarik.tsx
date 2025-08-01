@@ -12,7 +12,7 @@ const Contact5 = () => {
             Get in touch
           </h1>
         </div>
-        <form name="contact" method="POST" data-netlify="true">
+        <form method="POST">
         <div className="mx-auto flex max-w-lg flex-col gap-6">
           
           <div className="grid w-full items-center gap-2">
