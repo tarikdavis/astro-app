@@ -1,13 +1,13 @@
-import { ArrowUpRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 const Footer12 = () => {
   const navigation = [
 
-    { name: "Get in touch", href: "#" },
+    { name: "Get in touch", href: "/contact" },
   ];
 
   const social = [
-    { name: "LinkedIn", href: "http://linkedin.com/in/tarikdavis" },
+    { name: "Connect on LinkedIn", href: "http://linkedin.com/in/tarikdavis" },
   ];
 
   const legal = [{ name: "Privacy Policy", href: "#" }];
@@ -20,9 +20,9 @@ const Footer12 = () => {
             <li key={item.name}>
               <a
                 href={item.href}
-                className="font-medium transition-opacity hover:opacity-75"
+                className="flex items-center gap-0.5 font-medium transition-opacity hover:opacity-75"
               >
-                {item.name}
+                {item.name} <ChevronRight className="size-4" />
               </a>
             </li>
           ))}
@@ -32,7 +32,7 @@ const Footer12 = () => {
                 href={item.href}
                 className="flex items-center gap-0.5 font-medium transition-opacity hover:opacity-75"
               >
-                {item.name} <ArrowUpRight className="size-4" />
+                {item.name} <ChevronRight className="size-4" />
               </a>
             </li>
           ))}
