@@ -23,15 +23,9 @@ const Contact5 = () => {
           </div>
           <div className="grid w-full items-center gap-2">
             <Label htmlFor="email">
-              Your Email Address
+              Your email address
             </Label>
             <Input type="email" id="email" />
-          </div>
-          <div className="grid w-full items-center gap-2">
-            <Label htmlFor="phone">
-              Your Phone Number<span className="text-red-500">optional</span>
-            </Label>
-            <Input type="tel" id="phone" />
           </div>
           <div className="grid w-full gap-2">
             <Label htmlFor="message">
