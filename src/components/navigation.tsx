@@ -47,23 +47,12 @@ const Navbar5 = () => {
               </Button>
             </SheetTrigger>
             <SheetContent side="top" className="max-h-screen overflow-auto">
-              <SheetHeader>
-                <SheetTitle>
-                  <a
-                    href="/"
-                    className="flex items-center gap-2"
-                  >
-
-                    <House className="mr-3" />
-                    <span className="text-lg font-semibold tracking-tighter">
-                      tarikdavis.co.uk
-                    </span>
-                  </a>
-                </SheetTitle>
-              </SheetHeader>
               <div className="flex flex-col p-4">
 
                 <div className="mt-6 flex flex-col gap-4">
+                  <Button variant="outline">
+                    <House className="mr-1" /><a href="/">Home</a>
+                  </Button>
                   <Button variant="outline">
                     <FaLinkedin className="mr-1" /><a href="https://www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
                   </Button>
