@@ -68,7 +68,7 @@ const Navbar5 = () => {
           </NavigationMenu>
           <div className="hidden items-center gap-4 lg:flex">
             <Button variant="outline">
-              <FaLinkedin className="mr-1" /><a href="www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
+              <FaLinkedin className="mr-1" /><a href="https://www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
             </Button>
           </div>
           <Sheet>
@@ -103,7 +103,7 @@ const Navbar5 = () => {
                 </div>
                 <div className="mt-6 flex flex-col gap-4">
                   <Button variant="outline">
-                    <FaLinkedin className="mr-1" /><a href="www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
+                    <FaLinkedin className="mr-1" /><a href="https://www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
                   </Button>
                 </div>
               </div>

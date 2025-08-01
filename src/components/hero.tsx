@@ -21,7 +21,7 @@ const Hero26 = () => {
              <ChevronRight className="ml-1 h-4" />
             </Button>
             <Button size="lg" variant="secondary">
-             <FaLinkedin className="mr-1" /><a href="www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
+             <FaLinkedin className="mr-1" /><a href="htps://www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
             </Button>
           </div>
         </div>
