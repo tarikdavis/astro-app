@@ -1,6 +1,6 @@
 "use client";
 
-import { MenuIcon, Sparkle } from "lucide-react";
+import { MenuIcon, House } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -30,7 +30,7 @@ const Navbar5 = () => {
             href="/"
             className="flex items-center gap-2"
           >
-            <Sparkle className="mr-3" />
+            <House className="mr-3" />
 
             <span className="text-lg font-semibold tracking-tighter">
               tarikdavis.co.uk
@@ -82,7 +82,7 @@ const Navbar5 = () => {
                     className="flex items-center gap-2"
                   >
 
-                    <Sparkle className="mr-3" />
+                    <House className="mr-3" />
                     <span className="text-lg font-semibold tracking-tighter">
                       tarikdavis.co.uk
                     </span>
