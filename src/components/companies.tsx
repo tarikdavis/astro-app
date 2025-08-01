@@ -29,23 +29,23 @@ const features = [
     description: "I worked with the Barclays Digital team for over 4 years, accross multiple digital touchpoints including secure online banking, retail and wealth websites and multiple native mobile apps. In my final year I led and coached the Web production teams in London, Glasgow and Pune.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/barclays.svg?raw=true",
   },
-  {
-    id: "feature-6",
-    title: "BBC",
-    description: "Supported BBC learning teams to develop new features and maintain content for BBC Ouch, Webwise, Skillswise and First Click.",
-    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/bbc.svg?raw=true",
-  },
     {
-    id: "feature-7",
+    id: "feature-6",
     title: "Aquascutum",
     description: "Developed multiple templates for weekly campaign emails using HTML, CSS and Photoshop. Tested for accessibility and layout consistency accross multiple screen sizes and email clients.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/aquascutum.svg?raw=true",
   },
   {
-    id: "feature-8",
+    id: "feature-7",
     title: "Marks & Spencer",
     description: "Developed high profile campaign and landing pages for the M&S ecommerce website and M&S Bank. Worked with an external partner to build interactive content displayed on touchscreens in store. Developed data capture forms for M&S competitions surfaced on M&S Facebook pages.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/mands.svg?raw=true",
+  },
+  {
+    id: "feature-8",
+    title: "BBC",
+    description: "Supported BBC learning teams to develop new features and maintain content for BBC Ouch, Webwise, Skillswise and First Click.",
+    image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/bbc.svg?raw=true",
   },
 ];
 
