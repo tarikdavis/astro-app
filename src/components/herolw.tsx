@@ -21,10 +21,6 @@ const Hero26 = () => {
               <a href="https://www.hsbc.co.uk/mortgages/finder/">View live project</a>
               <ChevronRight className="ml-1 h-4" />
             </Button>
-            <Button size="lg" variant="secondary">
-              <a href="/contact">Discuss this project</a>
-              <ChevronRight className="ml-1 h-4" />
-            </Button>
           </div>
         </div>
       </div>
