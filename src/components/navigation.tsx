@@ -27,46 +27,15 @@ const Navbar5 = () => {
     <section className="py-4">
       <div className="container">
         <nav className="flex items-center justify-between">
-          <a
-            href="/"
-            className="flex items-center gap-2"
-          >
-            <House className="mr-3" />
-
-            <span className="text-lg font-semibold tracking-tighter">
-              tarikdavis.co.uk
-            </span>
-          </a>
           <NavigationMenu className="hidden lg:block">
             <NavigationMenuList>
 
-              <NavigationMenuItem>
-                <NavigationMenuLink
-                  href="/about"
-                  className={navigationMenuTriggerStyle()}
-                >
-                  About
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuLink
-                  href="/latest-work"
-                  className={navigationMenuTriggerStyle()}
-                >
-                  Latest work
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuLink
-                  href="/contact"
-                  className={navigationMenuTriggerStyle()}
-                >
-                 
-                </NavigationMenuLink>
-              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
           <div className="hidden items-center gap-4 lg:flex">
+            <Button variant="outline">
+              <House className="mr-1" /><a href="/">Home</a>
+            </Button>
             <Button variant="outline">
               <FaLinkedin className="mr-1" /><a href="https://www.linkedin.com/in/tarikdavis">Connect on linkedin</a>
             </Button>
@@ -93,14 +62,7 @@ const Navbar5 = () => {
                 </SheetTitle>
               </SheetHeader>
               <div className="flex flex-col p-4">
-                <div className="flex flex-col gap-6">
-                  <a href="#" className="font-medium">
-                    About
-                  </a>
-                  <a href="/latest-work" className="font-medium">
-                    Latest work
-                  </a>
-                </div>
+
                 <div className="mt-6 flex flex-col gap-4">
                   <Button variant="outline">
                     <FaLinkedin className="mr-1" /><a href="https://www.linkedin.com/in/tarikdavis">Connect on linkedin</a>

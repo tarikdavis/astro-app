@@ -21,7 +21,7 @@ const tabsData: ITabData[] = [
     id: 1,
     title: "Title 1",
     imageSrc: [
-      "https://github.com/tarikdavis/astro-app/blob/main/src/img/mf1/st1.webp?raw=true",
+      "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg",
       "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg",
       "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg",
     ],
@@ -32,7 +32,7 @@ const tabsData: ITabData[] = [
     id: 2,
     title: "Title 2",
     imageSrc: [
-      "https://github.com/tarikdavis/astro-app/blob/main/src/img/mf1/st2.webp?raw=true",
+      "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-2.svg",
       "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-2.svg",
       "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-2.svg",
     ],
@@ -43,7 +43,7 @@ const tabsData: ITabData[] = [
     id: 3,
     title: "Title 3",
     imageSrc: [
-      "https://github.com/tarikdavis/astro-app/blob/main/src/img/mf1/st3.webp?raw=true",
+      "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg",
       "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg",
       "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg",
     ],
@@ -116,12 +116,12 @@ const Feature145 = () => {
               ))}
             </Accordion>
           </div>
-          <div className="bg-primary-background relative w-full rounded-lg border border-mute">
+          <div className="bg-muted-foreground/5 before:bg-primary/50 relative m-auto hidden w-1/2 overflow-hidden rounded-xl px-10 py-12 before:absolute before:inset-0 before:z-[-1] before:[mask-image:url('https://deifkwefumgah.cloudfront.net/shadcnblocks/block/patterns/dot-pattern.svg')] before:[mask-repeat:repeat] before:[mask-size:15px] md:block">
             <div className="flex min-h-96 w-full items-center justify-center px-3">
               <img
                 src={activeImage[0]}
                 alt="placeholder"
-                className="rounded-md object-cover pl-4"
+                className="aspect-[1.2] w-1/2 rounded-md object-cover pl-4"
               />
             </div>
           </div>

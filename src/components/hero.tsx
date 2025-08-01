@@ -13,7 +13,7 @@ const Hero26 = () => {
             Tarik Davis Digital Specialist
           </h1>
           <p className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl">
-           I help businesses create websites that work for them. Whether you need a complete digital strategy, custom development, or technical content design, I bring the skills and creative thinking to make it happen.
+           I help businesses create websites. Whether you need a complete digital strategy, custom development, or technical content design, I bring the skills and creative thinking to make it happen.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button size="lg">

@@ -28,7 +28,7 @@ const Feature50 = () => {
                   HSBC Mortgage finder
                 </h3>
                 <p className="text-sm text-muted-foreground lg:text-base">
-                  Built with Adobe Experience Manager and Adaptive forms. We utilised existing tools and functionality to create a React app that surfaced hidden form data and structured content generated with a CSV source file.
+                  Built with Adobe Experience Manager and Adaptive forms. We utilised existing tools and functionality to create an app that used hidden form data to display calculations and surfaced tagged structured content, generated from a product data CSV source file.
                 </p>
               </div>
               <div className="mt-6 sm:mt-8">
