@@ -2,7 +2,7 @@ const features = [
   {
     id: "feature-1",
     title: "HSBC",
-    description: "Migration of legacy forms to Adobe Experience Manager. This was a global project and included redesigning and rebuilding forms with display logic, regex validations, configuration of submission endpoints and curation of form fragments for translation to multiple languages. During my most recent contract with HSBC I worked on the Mortgage product finder which can be seen in my latest work.",
+    description: "Migration of legacy forms to Adobe Experience Manager. This was a global project and included redesigning and rebuilding forms with display logic, regex validations, configuration of submission endpoints and creation of form fragments for translation to multiple languages. During my most recent contract with HSBC I worked on the Mortgage product finder which can be seen in my latest work.",
     image: "https://github.com/tarikdavis/astro-app/blob/main/src/img/hsbc.svg?raw=true",
   },
   {
