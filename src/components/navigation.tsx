@@ -1,13 +1,7 @@
 "use client";
 
-import { MenuIcon } from "lucide-react";
+import { MenuIcon, Sparkle } from "lucide-react";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
@@ -36,11 +30,8 @@ const Navbar5 = () => {
             href="/"
             className="flex items-center gap-2"
           >
-            <img
-              src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg"
-              className="max-h-8"
-              alt="Shadcn UI Navbar"
-            />
+            <Sparkle className="mr-3" />
+
             <span className="text-lg font-semibold tracking-tighter">
               tarikdavis.co.uk
             </span>
@@ -75,8 +66,7 @@ const Navbar5 = () => {
             </NavigationMenuList>
           </NavigationMenu>
           <div className="hidden items-center gap-4 lg:flex">
-            <Button variant="outline">Sign in</Button>
-            <Button>Start for free</Button>
+            <Button variant="outline">Client login</Button>
           </div>
           <Sheet>
             <SheetTrigger asChild className="lg:hidden">
@@ -88,16 +78,13 @@ const Navbar5 = () => {
               <SheetHeader>
                 <SheetTitle>
                   <a
-                    href="https://www.shadcnblocks.com"
+                    href="/"
                     className="flex items-center gap-2"
                   >
-                    <img
-                      src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg"
-                      className="max-h-8"
-                      alt="Shadcn UI Navbar"
-                    />
+
+                    <Sparkle className="mr-3" />
                     <span className="text-lg font-semibold tracking-tighter">
-                      Shadcnblocks.com
+                      tarikdavis.co.uk
                     </span>
                   </a>
                 </SheetTitle>
