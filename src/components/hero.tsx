@@ -10,7 +10,7 @@ const Hero26 = () => {
         <div className="text-center">
 
           <h1 className="mx-auto mt-4 mb-3 max-w-3xl text-4xl font-semibold text-balance lg:mb-7 lg:text-7xl">
-            Tarik Davis Digital Specialist
+            Tarik Davis Digital Specialist - test 2
           </h1>
           <p className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl">
            I help businesses create websites. Whether you need a complete digital strategy, custom development, or technical content design, I bring the skills and creative thinking to make it happen.
